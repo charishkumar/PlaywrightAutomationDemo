@@ -1,0 +1,41 @@
+POST API Response Body : {
+  "bookingid": 1211,
+  "booking": {
+    "firstname": "Gary",
+    "lastname": "Mitchell",
+    "totalprice": 4809,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-08-13",
+      "checkout": "2027-01-03"
+    },
+    "additionalneeds": "tracto"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 1211
+GET API Response Body : {
+  "firstname": "Gary",
+  "lastname": "Mitchell",
+  "totalprice": 4809,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-08-13",
+    "checkout": "2027-01-03"
+  },
+  "additionalneeds": "tracto"
+}
+Token: 09603d0a77f8c02
+PUT API Response Body : {
+  "firstname": "Specflow",
+  "lastname": "Selenium C#",
+  "totalprice": 111,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "additionalneeds": "super bowls"
+}

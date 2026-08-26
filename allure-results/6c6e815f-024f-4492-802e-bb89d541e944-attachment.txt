@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 1003,
+  "booking": {
+    "firstname": "Oleta",
+    "lastname": "Heaney",
+    "totalprice": 2224,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-11",
+      "checkout": "2026-12-01"
+    },
+    "additionalneeds": "aperiam"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 1003
+GET API Response Body : {
+  "firstname": "Oleta",
+  "lastname": "Heaney",
+  "totalprice": 2224,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-11-11",
+    "checkout": "2026-12-01"
+  },
+  "additionalneeds": "aperiam"
+}
+Token: {}

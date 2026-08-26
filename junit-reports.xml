@@ -1,0 +1,72 @@
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="39.953319">
+  <testsuite name="Chapter04/04_TestReports_Test.spec.ts" timestamp="2026-07-15T15:52:46.820Z" hostname="chromium" tests="4" failures="1" skipped="0" time="38.916" errors="0">
+    <testcase name="SmokeTesting › Test Reports in Playwright1" classname="Chapter04/04_TestReports_Test.spec.ts" time="18.797">
+      <system-out><![CDATA[
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-27f4f-Test-Reports-in-Playwright1-chromium/test-finished-1.png]]
+        ]]></system-out>
+    </testcase>
+    <testcase name="RegressionTesting › Test Reports in Playwright2" classname="Chapter04/04_TestReports_Test.spec.ts" time="4.331">
+      <system-out><![CDATA[
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-e6221-Test-Reports-in-Playwright2-chromium/test-finished-1.png]]
+        ]]></system-out>
+    </testcase>
+    <testcase name="RegressionTesting › Test Reports in Playwright3" classname="Chapter04/04_TestReports_Test.spec.ts" time="4.364">
+      <system-out><![CDATA[
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-75bcd-Test-Reports-in-Playwright3-chromium/test-finished-1.png]]
+        ]]></system-out>
+    </testcase>
+    <testcase name="RegressionTesting › Test Reports in Playwright4" classname="Chapter04/04_TestReports_Test.spec.ts" time="11.424">
+      <system-out><![CDATA[
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/test-failed-1.png]]
+        
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/test-failed-2.png]]
+        
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/video-1.webm]]
+        
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/video.webm]]
+        
+        [[ATTACHMENT|test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/error-context.md]]
+        ]]></system-out>
+      <failure message="expect(page).toHaveTitle(expected) failed" type="expect.toHaveTitle"><![CDATA[  [chromium] › Chapter04/04_TestReports_Test.spec.ts:36:13 › RegressionTesting › Test Reports in Playwright4 
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected pattern: /playwright typescript by testers talk/
+    Received string:  "playwright by testers talk - Yahoo Search Results"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        13 × unexpected value "playwright by testers talk - Yahoo Search Results"
+
+
+      41 |         await page.getByRole('combobox', { name: 'Search query' }).press('Enter')
+      42 |         await page.locator("//h3[@style='display:block']/span[starts-with(text(), 'Playwright by')]").click();
+    > 43 |         await expect(page).toHaveTitle(/playwright typescript by testers talk/)
+         |                            ^
+      44 |     })
+      45 | })
+      46 |
+        at /Users/harishc/PWDemos/tests/Chapter04/04_TestReports_Test.spec.ts:43:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/video-1.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/Chapter04-04_TestReports_T-a6f3b-Test-Reports-in-Playwright4-chromium/error-context.md
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

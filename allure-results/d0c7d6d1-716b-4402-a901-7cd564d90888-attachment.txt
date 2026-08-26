@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 970,
+  "booking": {
+    "firstname": "Rachel",
+    "lastname": "Nitzsche",
+    "totalprice": 1063,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-07-04",
+      "checkout": "2026-09-04"
+    },
+    "additionalneeds": "tardus"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 970
+GET API Response Body : {
+  "firstname": "Rachel",
+  "lastname": "Nitzsche",
+  "totalprice": 1063,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-07-04",
+    "checkout": "2026-09-04"
+  },
+  "additionalneeds": "tardus"
+}
+Token: f4ca7a68d065c01

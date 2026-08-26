@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 5054,
+  "booking": {
+    "firstname": "Leonard",
+    "lastname": "Herman",
+    "totalprice": 4863,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-07-04",
+      "checkout": "2026-11-17"
+    },
+    "additionalneeds": "vado"
+  }
+}
+Booking ID: 5054
+GET API Response Body : {
+  "firstname": "Leonard",
+  "lastname": "Herman",
+  "totalprice": 4863,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-07-04",
+    "checkout": "2026-11-17"
+  },
+  "additionalneeds": "vado"
+}
+Token: f0deda4dea5e845
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Herman",
+  "totalprice": 4863,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-07-04",
+    "checkout": "2026-11-17"
+  },
+  "additionalneeds": "vado"
+}

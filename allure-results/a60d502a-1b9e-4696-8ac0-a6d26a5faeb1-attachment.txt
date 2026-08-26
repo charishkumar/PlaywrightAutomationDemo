@@ -1,0 +1,17 @@
+POST API Response Body : {
+  "bookingid": 23821,
+  "booking": {
+    "firstname": "Enos",
+    "lastname": "Prohaska",
+    "totalprice": 4651,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-06-30",
+      "checkout": "2027-03-14"
+    },
+    "additionalneeds": "ventosus"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8

@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 3241,
+  "booking": {
+    "firstname": "Martha",
+    "lastname": "Wisoky",
+    "totalprice": 1373,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-12-03",
+      "checkout": "2027-04-06"
+    },
+    "additionalneeds": "cedo"
+  }
+}
+Booking ID: 3241
+GET API Response Body : {
+  "firstname": "Martha",
+  "lastname": "Wisoky",
+  "totalprice": 1373,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-12-03",
+    "checkout": "2027-04-06"
+  },
+  "additionalneeds": "cedo"
+}
+Token: f88cc6d1bdb0781
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Wisoky",
+  "totalprice": 1373,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-12-03",
+    "checkout": "2027-04-06"
+  },
+  "additionalneeds": "cedo"
+}

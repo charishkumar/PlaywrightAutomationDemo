@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 4547,
+  "booking": {
+    "firstname": "Janet",
+    "lastname": "Hamill",
+    "totalprice": 2718,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-06-13",
+      "checkout": "2027-03-17"
+    },
+    "additionalneeds": "tepesco"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 4547
+GET API Response Body : {
+  "firstname": "Janet",
+  "lastname": "Hamill",
+  "totalprice": 2718,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-06-13",
+    "checkout": "2027-03-17"
+  },
+  "additionalneeds": "tepesco"
+}
+Token: [object Promise]

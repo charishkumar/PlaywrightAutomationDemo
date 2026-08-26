@@ -1,0 +1,29 @@
+POST API Response Body : {
+  "bookingid": 3391,
+  "booking": {
+    "firstname": "Marcelino",
+    "lastname": "Lockman",
+    "totalprice": 1900,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-01",
+      "checkout": "2027-05-20"
+    },
+    "additionalneeds": "spero"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 3391
+GET API Response Body : {
+  "firstname": "Marcelino",
+  "lastname": "Lockman",
+  "totalprice": 1900,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-11-01",
+    "checkout": "2027-05-20"
+  },
+  "additionalneeds": "spero"
+}

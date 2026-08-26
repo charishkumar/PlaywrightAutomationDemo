@@ -1,0 +1,23 @@
+POST API Response Body : {
+  "bookingid": 3250,
+  "booking": {
+    "firstname": "Jacquelyn",
+    "lastname": "Jerde",
+    "totalprice": 4978,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-04-07",
+      "checkout": "2027-01-10"
+    },
+    "additionalneeds": "debitis"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 3250
+GET API Response Body : [
+  {
+    "bookingid": 3250
+  }
+]

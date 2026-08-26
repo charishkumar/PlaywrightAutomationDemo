@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 2549,
+  "booking": {
+    "firstname": "Tiana",
+    "lastname": "Cummings",
+    "totalprice": 3761,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-01-09",
+      "checkout": "2026-11-21"
+    },
+    "additionalneeds": "vinculum"
+  }
+}
+Booking ID: 2549
+GET API Response Body : {
+  "firstname": "Tiana",
+  "lastname": "Cummings",
+  "totalprice": 3761,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-01-09",
+    "checkout": "2026-11-21"
+  },
+  "additionalneeds": "vinculum"
+}
+Token: 524347361f563d1
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Cummings",
+  "totalprice": 3761,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-01-09",
+    "checkout": "2026-11-21"
+  },
+  "additionalneeds": "vinculum"
+}

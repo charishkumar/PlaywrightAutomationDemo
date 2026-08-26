@@ -1,0 +1,322 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Chapter04/04_TestReports_Test.spec.ts >> RegressionTesting >> Test Reports in Playwright3
+- Location: tests/Chapter04/04_TestReports_Test.spec.ts:26:9
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - link "Yahoo" [ref=e6] [cursor=pointer]:
+      - /url: https://www.yahoo.com
+    - button "Settings" [ref=e8] [cursor=pointer]
+    - link "Sign In" [ref=e10] [cursor=pointer]:
+      - /url: https://login.yahoo.com/;_ylt=AwrjcDuYK1lqTAIAdUJXNyoA?.intl=us&.lang=en-US&pspid=2766679&.src=search&.done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Ffr%3Dsfp%26p%3Dplaywright%2Bby%2Btesters%2Btalk&activity=header-signin
+      - generic [ref=e11]: Sign In
+    - search [ref=e13]:
+      - generic [ref=e15]:
+        - combobox "Search the web" [ref=e16]: playwright by testers talk
+        - generic [ref=e17]:
+          - button "Clear" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+          - button "Search by voice" [ref=e23] [cursor=pointer]
+          - button "Search" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+  - generic [ref=e29]:
+    - list:
+      - listitem [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - list:
+              - listitem [ref=e33]:
+                - link "All" [disabled] [ref=e34]
+              - listitem [ref=e35]:
+                - link "Videos" [ref=e36] [cursor=pointer]:
+                  - /url: https://video.search.yahoo.com/search/video;_ylt=AwrjcDuYK1lqTAIAdkJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright+by+testers+talk&fr2=piv-web&fr=sfp
+              - listitem [ref=e37]:
+                - link "Images" [ref=e38] [cursor=pointer]:
+                  - /url: https://images.search.yahoo.com/search/images;_ylt=AwrjcDuYK1lqTAIAd0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright+by+testers+talk&fr2=piv-web&fr=sfp
+              - listitem [ref=e39]:
+                - link "News" [ref=e40] [cursor=pointer]:
+                  - /url: https://news.search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAeEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=playwright+by+testers+talk&fr2=piv-web&fr=sfp
+          - link "More" [ref=e42] [cursor=pointer]:
+            - /url: "#"
+            - text: More
+      - listitem [ref=e44]:
+        - button "Anytime" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Anytime
+  - document [ref=e50]:
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "Search Results" [level=2] [ref=e58]
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - generic [ref=e62]:
+                - heading "Videos" [level=3] [ref=e64]:
+                  - link "Videos" [ref=e65] [cursor=pointer]:
+                    - /url: https://video.search.yahoo.com/search/video;_ylt=AwrjcDuYK1lqTAIAg0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright+by+testers+talk&fr=sfp
+                - region "carousel" [ref=e66]:
+                  - group "Item 1 of 3" [ref=e67]:
+                    - 'link "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial 8:55:09 YouTube #1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial Jan 8, 2025 189.5K Views" [ref=e69] [cursor=pointer]':
+                      - /url: https://video.search.yahoo.com/search/video;_ylt=AwrjcDuYK1lqTAIAgEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright+by+testers+talk&fr=sfp&turl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOVP.nJuGdKjC2K4lVepgZBDC3gHgFo%3Fpid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D788GvvcfwTY&tit=%231+Playwright+Automation+Using+TypeScript+Full+Course+2026+%7C+Playwright+TypeScript+Beginner+Tutorial&pos=01&vid=c1726d1a96727d9f5219c32f37125ff9&sigr=BTQ9uzsNhWXA&sigt=uFacVW5e8YXB&sigi=eoWxyAqy7jSk
+                      - generic [ref=e72]:
+                        - img "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial" [ref=e74]
+                        - generic [ref=e75]: 8:55:09
+                      - generic [ref=e76]:
+                        - paragraph [ref=e77]: YouTube
+                        - paragraph [ref=e78]:
+                          - generic [ref=e79]: "#1 Playwright Automation Using TypeScript Full Course 2026 | Playwright TypeScript Beginner Tutorial"
+                        - paragraph [ref=e80]: Jan 8, 2025
+                        - paragraph [ref=e81]: 189.5K Views
+                  - group "Item 2 of 3" [ref=e82]:
+                    - 'link "Playwright TypeScript #70 Run Playwright Test on Multiple Environments QA, DEV, STAGING, PROD etc 19:35 YouTube Playwright TypeScript #70 Run Playwright Test on Multiple Environments QA, DEV, STAGING, PROD etc Oct 10, 2025 1.3K Views" [ref=e84] [cursor=pointer]':
+                      - /url: https://video.search.yahoo.com/search/video;_ylt=AwrjcDuYK1lqTAIAgUJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright+by+testers+talk&fr=sfp&turl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOVP.EWl2XoDsLCZM0VVEHYRgiwEsDh%3Fpid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dw3pR73rsKBU&tit=Playwright+TypeScript+%2370+Run+Playwright+Test+on+Multiple+Environments+QA%2C+DEV%2C+STAGING%2C+PROD+etc&pos=11&vid=65fdc63c091677bf0a03f13fc8e576b2&sigr=QG0pSUk5QgLN&sigt=J3e9qZvDjZGj&sigi=0afOE0.OXrT2
+                      - generic [ref=e87]:
+                        - 'img "Playwright TypeScript #70 Run Playwright Test on Multiple Environments QA, DEV, STAGING, PROD etc" [ref=e89]'
+                        - generic [ref=e90]: 19:35
+                      - generic [ref=e91]:
+                        - paragraph [ref=e92]: YouTube
+                        - paragraph [ref=e93]:
+                          - generic [ref=e94]: "Playwright TypeScript #70 Run Playwright Test on Multiple Environments QA, DEV, STAGING, PROD etc"
+                        - paragraph [ref=e95]: Oct 10, 2025
+                        - paragraph [ref=e96]: 1.3K Views
+                  - group "Item 3 of 3" [ref=e97]:
+                    - 'link "#99 How to Run Playwright Tests using Azure DevOps Pipeline | Playwright with Azure DevOps 7:43 YouTube #99 How to Run Playwright Tests using Azure DevOps Pipeline | Playwright with Azure DevOps Dec 7, 2025 1.3K Views" [ref=e99] [cursor=pointer]':
+                      - /url: https://video.search.yahoo.com/search/video;_ylt=AwrjcDuYK1lqTAIAgkJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright+by+testers+talk&fr=sfp&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOVP.Quh5pCCCtni9fepvkUKNyQEsDh%3Fpid%3DApi%26w%3D296%26h%3D156%26c%3D7%26p%3D0&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhfcR3Kxr-lU&tit=%2399+How+to+Run+Playwright+Tests+using+Azure+DevOps+Pipeline+%7C+Playwright+with+Azure+DevOps&pos=21&vid=a4f2fd33669b8f4e6a5c8be4d76520b2&sigr=2iLRCniP5Ehb&sigt=tA2ozAdT6l8M&sigi=qsqBrUF.mQxm
+                      - generic [ref=e102]:
+                        - img "#99 How to Run Playwright Tests using Azure DevOps Pipeline | Playwright with Azure DevOps" [ref=e104]
+                        - generic [ref=e105]: 7:43
+                      - generic [ref=e106]:
+                        - paragraph [ref=e107]: YouTube
+                        - paragraph [ref=e108]:
+                          - generic [ref=e109]: "#99 How to Run Playwright Tests using Azure DevOps Pipeline | Playwright with Azure DevOps"
+                        - paragraph [ref=e110]: Dec 7, 2025
+                        - paragraph [ref=e111]: 1.3K Views
+                - link "View all" [ref=e113] [cursor=pointer]:
+                  - /url: https://video.search.yahoo.com/search/video;_ylt=AwrjcDuYK1lqTAIAhEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Nj?p=playwright+by+testers+talk&fr=sfp
+                  - text: View all
+            - listitem [ref=e115]:
+              - generic [ref=e116]:
+                - link "YouTube https://www.youtube.com › playlist Playwright by Testers Talk - YouTube" [active] [ref=e118] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                  - generic [ref=e119]:
+                    - img [ref=e121]
+                    - generic [ref=e122]:
+                      - generic [ref=e123]: YouTube
+                      - text: https://www.youtube.com › playlist
+                  - heading "Playwright by Testers Talk - YouTube" [level=3] [ref=e124]:
+                    - generic [ref=e125]: Playwright by Testers Talk - YouTube
+                - paragraph [ref=e127]: "Playwright #2 What is Playwright? Advantages & Limitations. Playwright by Testers Talk Playwright tutorial playwright automation playwright automation tutorial playwright vs cypress..."
+            - listitem [ref=e128]:
+              - generic [ref=e129]:
+                - heading "Searches related to playwright by testers talk" [level=2] [ref=e131]
+                - table [ref=e132]:
+                  - rowgroup [ref=e133]:
+                    - row "playwright by testers talk script playwright by testers talk ai" [ref=e134]:
+                      - cell "playwright by testers talk script" [ref=e135]:
+                        - link "playwright by testers talk script" [ref=e136] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAhkJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+script&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk script" [ref=e137]
+                      - cell "playwright by testers talk ai" [ref=e138]:
+                        - link "playwright by testers talk ai" [ref=e139] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAikJXNyoA;_ylu=Y29sbwNncTEEcG9zAzUEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+ai&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk ai" [ref=e140]
+                    - row "playwright by testers talk show playwright by testers talk free" [ref=e141]:
+                      - cell "playwright by testers talk show" [ref=e142]:
+                        - link "playwright by testers talk show" [ref=e143] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAh0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzIEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+show&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk show" [ref=e144]
+                      - cell "playwright by testers talk free" [ref=e145]:
+                        - link "playwright by testers talk free" [ref=e146] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAi0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzYEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+free&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk free" [ref=e147]
+                    - row "playwright by testers talk about different playwright by testers talk download" [ref=e148]:
+                      - cell "playwright by testers talk about different" [ref=e149]:
+                        - link "playwright by testers talk about different" [ref=e150] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAiEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzMEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+about+different&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk about different" [ref=e151]
+                      - cell "playwright by testers talk download" [ref=e152]:
+                        - link "playwright by testers talk download" [ref=e153] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAjEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzcEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+download&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk download" [ref=e154]
+                    - row "playwright by testers talk about data playwright by testers talk about time" [ref=e155]:
+                      - cell "playwright by testers talk about data" [ref=e156]:
+                        - link "playwright by testers talk about data" [ref=e157] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAiUJXNyoA;_ylu=Y29sbwNncTEEcG9zAzQEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+about+data&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk about data" [ref=e158]
+                      - cell "playwright by testers talk about time" [ref=e159]:
+                        - link "playwright by testers talk about time" [ref=e160] [cursor=pointer]:
+                          - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAjUJXNyoA;_ylu=Y29sbwNncTEEcG9zAzgEdnRpZAMEc2VjA3JlbC1taWQ-?p=playwright+by+testers+talk+about+time&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-mid%2Cct%3Agossip&fr=sfp
+                          - generic "playwright by testers talk about time" [ref=e161]
+            - listitem [ref=e162]:
+              - generic [ref=e163]:
+                - link "YouTube https://www.youtube.com › @testerstalk Testers Talk - YouTube" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@testerstalk
+                  - generic [ref=e166]:
+                    - img [ref=e168]
+                    - generic [ref=e169]:
+                      - generic [ref=e170]: YouTube
+                      - text: https://www.youtube.com › @testerstalk
+                  - heading "Testers Talk - YouTube" [level=3] [ref=e171]:
+                    - generic [ref=e172]: Testers Talk - YouTube
+                - paragraph [ref=e174]: Playwright is an open-source automation library for browser testing.
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link "bakkappan.github.io https://bakkappan.github.io › Testers-Talk-Practice-Site Playwright_TypeScript_FullCourse_By_TestersTalk" [ref=e178] [cursor=pointer]:
+                  - /url: https://bakkappan.github.io/Testers-Talk-Practice-Site/Playwright_TypeScript_FullCourse_By_TestersTalk.pdf
+                  - generic [ref=e179]:
+                    - img [ref=e181]
+                    - generic [ref=e182]:
+                      - generic [ref=e183]: bakkappan.github.io
+                      - text: https://bakkappan.github.io › Testers-Talk-Practice-Site
+                  - heading "Playwright_TypeScript_FullCourse_By_TestersTalk" [level=3] [ref=e184]:
+                    - generic [ref=e185]: Playwright_TypeScript_FullCourse_By_TestersTalk
+                - paragraph [ref=e187]: Playwright's expect is powerful and provides a rich set of matchers for various types of checks, such as checking element visibility, text content, existence etc.
+            - listitem [ref=e188]:
+              - generic [ref=e189]:
+                - link "Medium https://medium.com › @testerstalk Testers Talk – Medium" [ref=e191] [cursor=pointer]:
+                  - /url: https://medium.com/@testerstalk
+                  - generic [ref=e192]:
+                    - img [ref=e194]
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: Medium
+                      - text: https://medium.com › @testerstalk
+                  - heading "Testers Talk – Medium" [level=3] [ref=e197]:
+                    - generic [ref=e198]: Testers Talk – Medium
+                - paragraph [ref=e200]: Jun 11, 2025 · This guide explains how to integrate Playwright’s Model Context Protocol (MCP) with Claude AI to enable smarter, context-aware automation… Testers Talk · Jun 16, 2025
+            - listitem [ref=e201]:
+              - generic [ref=e202]:
+                - link "Scribd https://www.scribd.com › document › 861225550 Playwright TypeScript Full Course Guide | PDF | Selenium ..." [ref=e204] [cursor=pointer]:
+                  - /url: https://www.scribd.com/document/861225550/Playwright-TypeScript-Full-Course-by-Testers-Talk
+                  - generic [ref=e205]:
+                    - img [ref=e207]
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: Scribd
+                      - text: https://www.scribd.com › document › 861225550
+                  - heading "Playwright TypeScript Full Course Guide | PDF | Selenium ..." [level=3] [ref=e210]:
+                    - generic [ref=e211]: Playwright TypeScript Full Course Guide | PDF | Selenium ...
+                - paragraph [ref=e213]: Playwright TypeScript Full Course by Testers Talk - Free download as PDF File (.pdf), Text File (.txt) or read online for free. The document outlines a comprehensive course on using Playwright with TypeScript, covering installation, setup, and various testing techniques.
+            - listitem [ref=e214]:
+              - generic [ref=e215]:
+                - link "Medium https://medium.com › @testerstalk › api-mocking-using API Mocking using Playwright. What is API Mocking? | by ..." [ref=e217] [cursor=pointer]:
+                  - /url: https://medium.com/@testerstalk/api-mocking-using-playwright-0cffefbd327c
+                  - generic [ref=e218]:
+                    - img [ref=e220]
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: Medium
+                      - text: https://medium.com › @testerstalk › api-mocking-using
+                  - heading "API Mocking using Playwright. What is API Mocking? | by ..." [level=3] [ref=e223]:
+                    - generic [ref=e224]: API Mocking using Playwright. What is API Mocking? | by ...
+                - paragraph [ref=e226]: Sep 23, 2024 · Playwright provides APIs to mock and modify network traffic, both HTTP and HTTPS. -> Any requests that a page does, including XHRs and fetch requests, can be tracked, modified and mocked. > With...
+            - listitem [ref=e227]:
+              - generic [ref=e228]:
+                - link "Github https://github.com › BakkappaN BakkappaN (Testers Talk) · GitHub" [ref=e230] [cursor=pointer]:
+                  - /url: https://github.com/BakkappaN/
+                  - generic [ref=e231]:
+                    - img [ref=e233]
+                    - generic [ref=e234]:
+                      - generic [ref=e235]: Github
+                      - text: https://github.com › BakkappaN
+                  - heading "BakkappaN (Testers Talk) · GitHub" [level=3] [ref=e236]:
+                    - generic [ref=e237]: BakkappaN (Testers Talk) · GitHub
+                - paragraph [ref=e239]: In this Playwright with TypeScript Tutorial Full Course covered topics from basics to advance level. Playwright with TypeScript Full Course - https://youtube.com/playlist?list=PLUeDIlio4THEXmQxNvKm…
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - generic [ref=e242]:
+              - heading "Searches related to playwright by testers talk" [level=2] [ref=e244]
+              - table [ref=e245]:
+                - rowgroup [ref=e246]:
+                  - row "playwright by testers talk script playwright by testers talk about different" [ref=e247]:
+                    - cell "playwright by testers talk script" [ref=e248]:
+                      - link "playwright by testers talk script" [ref=e249] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAlEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+script&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk script" [ref=e250]: playwright by testers talk script
+                    - cell "playwright by testers talk about different" [ref=e251]:
+                      - link "playwright by testers talk about different" [ref=e252] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAmEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzUEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+about+different&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk about different" [ref=e253]: playwright by testers talk about different
+                  - row "playwright by testers talk show playwright by testers talk ai" [ref=e254]:
+                    - cell "playwright by testers talk show" [ref=e255]:
+                      - link "playwright by testers talk show" [ref=e256] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAlUJXNyoA;_ylu=Y29sbwNncTEEcG9zAzIEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+show&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk show" [ref=e257]: playwright by testers talk show
+                    - cell "playwright by testers talk ai" [ref=e258]:
+                      - link "playwright by testers talk ai" [ref=e259] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAmUJXNyoA;_ylu=Y29sbwNncTEEcG9zAzYEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+ai&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk ai" [ref=e260]: playwright by testers talk ai
+                  - row "playwright by testers talk about data playwright by testers talk about time" [ref=e261]:
+                    - cell "playwright by testers talk about data" [ref=e262]:
+                      - link "playwright by testers talk about data" [ref=e263] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAlkJXNyoA;_ylu=Y29sbwNncTEEcG9zAzMEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+about+data&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk about data" [ref=e264]: playwright by testers talk about data
+                    - cell "playwright by testers talk about time" [ref=e265]:
+                      - link "playwright by testers talk about time" [ref=e266] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAmkJXNyoA;_ylu=Y29sbwNncTEEcG9zAzcEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+about+time&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk about time" [ref=e267]: playwright by testers talk about time
+                  - row "playwright by testers talk download playwright by testers talk app" [ref=e268]:
+                    - cell "playwright by testers talk download" [ref=e269]:
+                      - link "playwright by testers talk download" [ref=e270] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAl0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzQEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+download&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk download" [ref=e271]: playwright by testers talk download
+                    - cell "playwright by testers talk app" [ref=e272]:
+                      - link "playwright by testers talk app" [ref=e273] [cursor=pointer]:
+                        - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAm0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzgEdnRpZAMEc2VjA3JlbC1ib3Q-?p=playwright+by+testers+talk+app&fr2=p%3As%2Cv%3Aw%2Cm%3Ars-bottom%2Cct%3Agossip&fr=sfp
+                        - generic "playwright by testers talk app" [ref=e274]: playwright by testers talk app
+      - list [ref=e275]:
+        - listitem [ref=e276]:
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - strong [ref=e280]: "1"
+              - link "2" [ref=e281] [cursor=pointer]:
+                - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAnEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=sfp&fr2=p%3As%2Cv%3Asfp%2Cm%3Asb-top&p=playwright+by+testers+talk&b=8&pz=7&bct=0&xargs=0
+              - link "3" [ref=e282] [cursor=pointer]:
+                - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAnUJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=sfp&fr2=p%3As%2Cv%3Asfp%2Cm%3Asb-top&p=playwright+by+testers+talk&b=15&pz=7&bct=0&xargs=0
+              - link "4" [ref=e283] [cursor=pointer]:
+                - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAnkJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=sfp&fr2=p%3As%2Cv%3Asfp%2Cm%3Asb-top&p=playwright+by+testers+talk&b=22&pz=7&bct=0&xargs=0
+              - link "5" [ref=e284] [cursor=pointer]:
+                - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAn0JXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=sfp&fr2=p%3As%2Cv%3Asfp%2Cm%3Asb-top&p=playwright+by+testers+talk&b=29&pz=7&bct=0&xargs=0
+            - link ". . . Next" [ref=e285] [cursor=pointer]:
+              - /url: https://search.yahoo.com/search;_ylt=AwrjcDuYK1lqTAIAoEJXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BhZ2luYXRpb24-?fr=sfp&fr2=p%3As%2Cv%3Asfp%2Cm%3Asb-top&p=playwright+by+testers+talk&b=8&pz=7&bct=0&xargs=0
+        - listitem
+  - contentinfo [ref=e288]:
+    - list [ref=e289]:
+      - listitem [ref=e290]:
+        - link "Help" [ref=e291] [cursor=pointer]:
+          - /url: https://help.yahoo.com/kb/search-for-desktop;_ylt=AwrjcDuYK1lqTAIAoUJXNyoA
+      - listitem [ref=e292]:
+        - link "Suggestions" [ref=e293] [cursor=pointer]:
+          - /url: https://yahoo.uservoice.com/forums/193847-search
+      - listitem [ref=e294]:
+        - link "Terms" [ref=e295] [cursor=pointer]:
+          - /url: https://guce.yahoo.com/terms?locale=en-US
+      - listitem [ref=e296]:
+        - link "Privacy" [ref=e297] [cursor=pointer]:
+          - /url: https://guce.yahoo.com/privacy-policy?locale=en-US
+      - listitem [ref=e298]:
+        - link "Privacy Dashboard" [ref=e299] [cursor=pointer]:
+          - /url: https://guce.yahoo.com/privacy-dashboard?locale=en-US&done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Ffr%3Dsfp%26p%3Dplaywright%2Bby%2Btesters%2Btalk
+      - listitem [ref=e300]:
+        - link "Advertise" [ref=e301] [cursor=pointer]:
+          - /url: https://advertising.yahoo.com/article/search-advertising.html
+      - listitem [ref=e302]:
+        - link "About ads" [ref=e303] [cursor=pointer]:
+          - /url: https://help.yahoo.com/kb/search/sln2244.html;_ylt=AwrjcDuYK1lqTAIAp0JXNyoA
+      - listitem [ref=e304]:
+        - link "About this page" [ref=e305] [cursor=pointer]:
+          - /url: https://help.yahoo.com/kb/search-for-desktop/SLN2206.html;_ylt=AwrjcDuYK1lqTAIAqEJXNyoA?impressions=true
+      - listitem [ref=e306]: Powered by Bing™
+```

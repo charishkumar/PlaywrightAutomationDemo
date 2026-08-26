@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 2853,
+  "booking": {
+    "firstname": "Adolf",
+    "lastname": "Becker",
+    "totalprice": 1575,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-02-06",
+      "checkout": "2027-04-11"
+    },
+    "additionalneeds": "crur"
+  }
+}
+Booking ID: 2853
+GET API Response Body : {
+  "firstname": "Adolf",
+  "lastname": "Becker",
+  "totalprice": 1575,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-02-06",
+    "checkout": "2027-04-11"
+  },
+  "additionalneeds": "crur"
+}
+Token: 8fcf02e3b828daa
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Becker",
+  "totalprice": 1575,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-02-06",
+    "checkout": "2027-04-11"
+  },
+  "additionalneeds": "crur"
+}

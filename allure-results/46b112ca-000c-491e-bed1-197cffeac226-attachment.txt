@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 3288,
+  "booking": {
+    "firstname": "Cassandra",
+    "lastname": "King",
+    "totalprice": 3480,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-10-21",
+      "checkout": "2026-11-01"
+    },
+    "additionalneeds": "ulterius"
+  }
+}
+Booking ID: 3288
+GET API Response Body : {
+  "firstname": "Cassandra",
+  "lastname": "King",
+  "totalprice": 3480,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-21",
+    "checkout": "2026-11-01"
+  },
+  "additionalneeds": "ulterius"
+}
+Token: 64e32791be2a975
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "King",
+  "totalprice": 3480,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-21",
+    "checkout": "2026-11-01"
+  },
+  "additionalneeds": "ulterius"
+}

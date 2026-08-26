@@ -1,0 +1,18 @@
+Random Text Additional Needs: atqui
+POST API Response Body : {
+  "bookingid": 3933,
+  "booking": {
+    "firstname": "Santos",
+    "lastname": "Gusikowski",
+    "totalprice": 2686,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "atqui"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8

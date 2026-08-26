@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 2658,
+  "booking": {
+    "firstname": "Allan",
+    "lastname": "Brekke",
+    "totalprice": 3036,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-02-26",
+      "checkout": "2027-01-25"
+    },
+    "additionalneeds": "comedo"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 2658
+GET API Response Body : {
+  "firstname": "Allan",
+  "lastname": "Brekke",
+  "totalprice": 3036,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-02-26",
+    "checkout": "2027-01-25"
+  },
+  "additionalneeds": "comedo"
+}
+Token: undefined

@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 3577,
+  "booking": {
+    "firstname": "Elfrieda",
+    "lastname": "Fadel",
+    "totalprice": 1667,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-10-19",
+      "checkout": "2026-12-20"
+    },
+    "additionalneeds": "temporibus"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 3577
+GET API Response Body : {
+  "firstname": "Elfrieda",
+  "lastname": "Fadel",
+  "totalprice": 1667,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-10-19",
+    "checkout": "2026-12-20"
+  },
+  "additionalneeds": "temporibus"
+}
+Token: f083f11ffd9187f

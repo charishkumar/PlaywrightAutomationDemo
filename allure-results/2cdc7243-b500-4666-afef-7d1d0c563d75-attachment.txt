@@ -1,0 +1,18 @@
+Random Text Additional Needs: depulso
+POST API Response Body : {
+  "bookingid": 1038,
+  "booking": {
+    "firstname": "Russell",
+    "lastname": "Raynor",
+    "totalprice": 1117,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "depulso"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8

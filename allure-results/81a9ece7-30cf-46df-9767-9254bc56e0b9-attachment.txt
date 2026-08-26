@@ -1,0 +1,27 @@
+POST API Response Body : {
+  "bookingid": 2668,
+  "booking": {
+    "firstname": "Kristi",
+    "lastname": "O'Kon",
+    "totalprice": 4101,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-03-12",
+      "checkout": "2026-09-17"
+    },
+    "additionalneeds": "alii"
+  }
+}
+Booking ID: 2668
+GET API Response Body : {
+  "firstname": "Kristi",
+  "lastname": "O'Kon",
+  "totalprice": 4101,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-03-12",
+    "checkout": "2026-09-17"
+  },
+  "additionalneeds": "alii"
+}
+Token: 07136a8bb25a984

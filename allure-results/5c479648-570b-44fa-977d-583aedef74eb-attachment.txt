@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 4167,
+  "booking": {
+    "firstname": "Terrance",
+    "lastname": "Conn",
+    "totalprice": 4385,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-06-12",
+      "checkout": "2027-07-08"
+    },
+    "additionalneeds": "cuius"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 4167
+GET API Response Body : {
+  "firstname": "Terrance",
+  "lastname": "Conn",
+  "totalprice": 4385,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-06-12",
+    "checkout": "2027-07-08"
+  },
+  "additionalneeds": "cuius"
+}
+Token: 9fe72d4b1241abd

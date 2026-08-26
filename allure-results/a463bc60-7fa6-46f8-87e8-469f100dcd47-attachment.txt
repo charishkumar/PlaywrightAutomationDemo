@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 1831,
+  "booking": {
+    "firstname": "Ruth",
+    "lastname": "Douglas",
+    "totalprice": 2473,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-07-12",
+      "checkout": "2027-01-25"
+    },
+    "additionalneeds": "arca"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 1831
+GET API Response Body : {
+  "firstname": "Ruth",
+  "lastname": "Douglas",
+  "totalprice": 2473,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-07-12",
+    "checkout": "2027-01-25"
+  },
+  "additionalneeds": "arca"
+}
+Token: 1b8667d12c519f2

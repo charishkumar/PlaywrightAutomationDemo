@@ -1,0 +1,17 @@
+POST API Response Body : {
+  "bookingid": 2048,
+  "booking": {
+    "firstname": "Mae",
+    "lastname": "Hayes",
+    "totalprice": 1338,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-01-18",
+      "checkout": "2026-12-14"
+    },
+    "additionalneeds": "bonus"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8

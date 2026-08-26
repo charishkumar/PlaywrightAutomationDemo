@@ -1,0 +1,36 @@
+POST API Response Body : {
+  "bookingid": 5094,
+  "booking": {
+    "firstname": "Napoleon",
+    "lastname": "Murray",
+    "totalprice": 2353,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-09-24",
+      "checkout": "2027-08-04"
+    },
+    "additionalneeds": "doloremque"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 5094
+GET API Response Body : {
+  "firstname": "Napoleon",
+  "lastname": "Murray",
+  "totalprice": 2353,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-24",
+    "checkout": "2027-08-04"
+  },
+  "additionalneeds": "doloremque"
+}
+Token: c58cecfe65f3084
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 828,
+  [Symbol(trigger_async_id_symbol)]: 714,
+  [Symbol(kResourceStore)]: undefined
+}

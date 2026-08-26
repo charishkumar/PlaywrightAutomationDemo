@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 2862,
+  "booking": {
+    "firstname": "Lamar",
+    "lastname": "Hermann",
+    "totalprice": 2235,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-12-20",
+      "checkout": "2027-03-30"
+    },
+    "additionalneeds": "tactus"
+  }
+}
+Booking ID: 2862
+GET API Response Body : {
+  "firstname": "Lamar",
+  "lastname": "Hermann",
+  "totalprice": 2235,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-12-20",
+    "checkout": "2027-03-30"
+  },
+  "additionalneeds": "tactus"
+}
+Token: b969dc9550e961e
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Hermann",
+  "totalprice": 2235,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-12-20",
+    "checkout": "2027-03-30"
+  },
+  "additionalneeds": "tactus"
+}

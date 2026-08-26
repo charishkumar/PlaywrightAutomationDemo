@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 289,
+  "booking": {
+    "firstname": "Arnoldo",
+    "lastname": "Gleichner",
+    "totalprice": 3851,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-05-31",
+      "checkout": "2026-08-18"
+    },
+    "additionalneeds": "viriliter"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 289
+GET API Response Body : {
+  "firstname": "Arnoldo",
+  "lastname": "Gleichner",
+  "totalprice": 3851,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-05-31",
+    "checkout": "2026-08-18"
+  },
+  "additionalneeds": "viriliter"
+}
+Token: [object Promise]

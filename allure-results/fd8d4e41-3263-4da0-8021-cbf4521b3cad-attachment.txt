@@ -1,0 +1,23 @@
+POST API Response Body : {
+  "bookingid": 1806,
+  "booking": {
+    "firstname": "Euna",
+    "lastname": "Wolff",
+    "totalprice": 1496,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-04-17",
+      "checkout": "2027-07-07"
+    },
+    "additionalneeds": "tergiversatio"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 1806
+GET API Response Body : [
+  {
+    "bookingid": 1806
+  }
+]

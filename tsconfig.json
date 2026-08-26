@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                     // Compile to latest version of JavaScript
+    "module": "commonjs",                   // Module system for Node.js
+    //"moduleResolution": "node",             // Resolve modules from node_modules
+    "strict": true,                         // Enable strict type checking
+    "esModuleInterop": true,
+    "skipLibCheck": true,                   // Skip checking declaration files
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "types": ["node", "@playwright/test"],
+    "declaration": true,
+    "sourceMap": true
+  },
+  
+
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts"
+, "tests/Chapter06/07_PATCH_API_Request.spec ts"  ],
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+
+  
+}

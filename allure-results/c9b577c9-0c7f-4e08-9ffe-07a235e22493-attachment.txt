@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 2403,
+  "booking": {
+    "firstname": "Conrad",
+    "lastname": "Stokes",
+    "totalprice": 3328,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-08-24",
+      "checkout": "2027-01-22"
+    },
+    "additionalneeds": "triumphus"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 2403
+GET API Response Body : {
+  "firstname": "Conrad",
+  "lastname": "Stokes",
+  "totalprice": 3328,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-08-24",
+    "checkout": "2027-01-22"
+  },
+  "additionalneeds": "triumphus"
+}
+Token: 5ce82267b072b17

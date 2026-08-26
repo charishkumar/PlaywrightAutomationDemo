@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 4905,
+  "booking": {
+    "firstname": "Lupe",
+    "lastname": "Raynor",
+    "totalprice": 1901,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-01-30",
+      "checkout": "2027-06-10"
+    },
+    "additionalneeds": "comminor"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 4905
+GET API Response Body : {
+  "firstname": "Lupe",
+  "lastname": "Raynor",
+  "totalprice": 1901,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-01-30",
+    "checkout": "2027-06-10"
+  },
+  "additionalneeds": "comminor"
+}
+Token: 142bc2fb936b846

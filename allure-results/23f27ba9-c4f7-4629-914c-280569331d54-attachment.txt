@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 5307,
+  "booking": {
+    "firstname": "Luke",
+    "lastname": "Schuster",
+    "totalprice": 3440,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-01-02",
+      "checkout": "2027-04-11"
+    },
+    "additionalneeds": "ustilo"
+  }
+}
+Booking ID: 5307
+GET API Response Body : {
+  "firstname": "Luke",
+  "lastname": "Schuster",
+  "totalprice": 3440,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-01-02",
+    "checkout": "2027-04-11"
+  },
+  "additionalneeds": "ustilo"
+}
+Token: 1ee96ca3c2a3bd2
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Schuster",
+  "totalprice": 3440,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-01-02",
+    "checkout": "2027-04-11"
+  },
+  "additionalneeds": "ustilo"
+}
+Delete API Response: [object Promise]

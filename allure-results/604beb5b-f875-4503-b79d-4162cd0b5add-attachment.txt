@@ -1,0 +1,2 @@
+Current Status of RadioButton: $(isRadioChecked)
+Current Status of RadioButton: $(isRadioChecked1)

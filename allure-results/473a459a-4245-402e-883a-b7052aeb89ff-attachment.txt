@@ -1,0 +1,38 @@
+POST API Response Body : {
+  "bookingid": 2395,
+  "booking": {
+    "firstname": "Hugh",
+    "lastname": "Waelchi",
+    "totalprice": 4994,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-07-08",
+      "checkout": "2027-02-12"
+    },
+    "additionalneeds": "via"
+  }
+}
+Booking ID: 2395
+GET API Response Body : {
+  "firstname": "Hugh",
+  "lastname": "Waelchi",
+  "totalprice": 4994,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-07-08",
+    "checkout": "2027-02-12"
+  },
+  "additionalneeds": "via"
+}
+Token: 1e0cb878c602234
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Waelchi",
+  "totalprice": 4994,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-07-08",
+    "checkout": "2027-02-12"
+  },
+  "additionalneeds": "via"
+}

@@ -1,0 +1,30 @@
+POST API Response Body : {
+  "bookingid": 5294,
+  "booking": {
+    "firstname": "Joshua",
+    "lastname": "Tromp",
+    "totalprice": 2264,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-06-21",
+      "checkout": "2027-03-30"
+    },
+    "additionalneeds": "cedo"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8
+Booking ID: 5294
+GET API Response Body : {
+  "firstname": "Joshua",
+  "lastname": "Tromp",
+  "totalprice": 2264,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-06-21",
+    "checkout": "2027-03-30"
+  },
+  "additionalneeds": "cedo"
+}
+Token: 24445c995d5eb74

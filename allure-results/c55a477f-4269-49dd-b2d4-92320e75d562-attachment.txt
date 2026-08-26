@@ -1,0 +1,18 @@
+Random Text Additional Needs: demitto
+POST API Response Body : {
+  "bookingid": 807,
+  "booking": {
+    "firstname": "Benjamin",
+    "lastname": "Schuster",
+    "totalprice": 3925,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "demitto"
+  }
+}
+Status Code: 200
+Status Text: OK
+Content Type: application/json; charset=utf-8

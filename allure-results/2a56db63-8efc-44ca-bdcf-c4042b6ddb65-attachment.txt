@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 495,
+  "booking": {
+    "firstname": "Maryann",
+    "lastname": "Metz",
+    "totalprice": 4997,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-07-27",
+      "checkout": "2027-07-02"
+    },
+    "additionalneeds": "aegrotatio"
+  }
+}
+Booking ID: 495
+GET API Response Body : {
+  "firstname": "Maryann",
+  "lastname": "Metz",
+  "totalprice": 4997,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-07-27",
+    "checkout": "2027-07-02"
+  },
+  "additionalneeds": "aegrotatio"
+}
+Token: f7d99c320f05b9a
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Metz",
+  "totalprice": 4997,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-07-27",
+    "checkout": "2027-07-02"
+  },
+  "additionalneeds": "aegrotatio"
+}
+DELTE API Response Body : {}
