@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 3831,
+  "booking": {
+    "firstname": "Elias",
+    "lastname": "Bartell",
+    "totalprice": 2332,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-02-06",
+      "checkout": "2026-10-23"
+    },
+    "additionalneeds": "crustulum"
+  }
+}
+Booking ID: 3831
+GET API Response Body : {
+  "firstname": "Elias",
+  "lastname": "Bartell",
+  "totalprice": 2332,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-02-06",
+    "checkout": "2026-10-23"
+  },
+  "additionalneeds": "crustulum"
+}
+Token: cdf3b947f8c6126
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Bartell",
+  "totalprice": 2332,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-02-06",
+    "checkout": "2026-10-23"
+  },
+  "additionalneeds": "crustulum"
+}
+DELTE API Response Body : {}

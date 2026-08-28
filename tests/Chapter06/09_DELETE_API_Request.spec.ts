@@ -8,7 +8,7 @@ test.use({
     baseURL: process.env.BASE_API_URL,
 })
 
-test('Create DELETE API Request using Playwright', async ({ request }) => {
+test('Create DELETE API Request using Playwright', { tag: '@PlaywrightWithJenkins' }, async ({ request }) => {
 
     //generating data for the POST API request body using faker.js library. We are generating random data for the properties of the request body.
     const firstName = faker.person.firstName(); //generating random first name using faker.person.firstName() method.

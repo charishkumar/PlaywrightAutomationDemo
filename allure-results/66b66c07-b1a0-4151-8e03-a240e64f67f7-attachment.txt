@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 1189,
+  "booking": {
+    "firstname": "Archie",
+    "lastname": "Wiegand",
+    "totalprice": 1351,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-10-01",
+      "checkout": "2027-01-03"
+    },
+    "additionalneeds": "sufficio"
+  }
+}
+Booking ID: 1189
+GET API Response Body : {
+  "firstname": "Archie",
+  "lastname": "Wiegand",
+  "totalprice": 1351,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-01",
+    "checkout": "2027-01-03"
+  },
+  "additionalneeds": "sufficio"
+}
+Token: d978fe283999b92
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Wiegand",
+  "totalprice": 1351,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-01",
+    "checkout": "2027-01-03"
+  },
+  "additionalneeds": "sufficio"
+}
+DELTE API Response Body : {}

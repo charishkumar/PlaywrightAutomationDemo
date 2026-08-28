@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 1209,
+  "booking": {
+    "firstname": "Josiane",
+    "lastname": "Bogisich",
+    "totalprice": 4591,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-21",
+      "checkout": "2026-10-11"
+    },
+    "additionalneeds": "ulciscor"
+  }
+}
+Booking ID: 1209
+GET API Response Body : {
+  "firstname": "Josiane",
+  "lastname": "Bogisich",
+  "totalprice": 4591,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-11-21",
+    "checkout": "2026-10-11"
+  },
+  "additionalneeds": "ulciscor"
+}
+Token: 65ac0b6b26608c0
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Bogisich",
+  "totalprice": 4591,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-11-21",
+    "checkout": "2026-10-11"
+  },
+  "additionalneeds": "ulciscor"
+}
+DELTE API Response Body : {}
