@@ -96,7 +96,7 @@ globalTimeout: 60 * 60* 1000,
 
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
-       baseURL: process.env.BASE_API_URL,
+       baseURL:process.env.BASE_URL, //this is used to read the base url from the .env file. We are using this base url in the test scripts to navigate to the application under test.
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'off',
 //    actionTimeout: 10000, //To apply a longer wait for all actions (default is 0 ms / unlimited) --Harish

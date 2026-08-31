@@ -6,7 +6,7 @@ import tokenAPIRequest from '../../test-data/api_requests/Token_API_Request.json
 import patchAPIRequest from '../../test-data/api_requests/PATCH_API_Request.json'; // we need to import PATCH API Request.json file
 
 test.use({
-    baseURL: process.env.BASE_API_URL,
+    baseURL:process.env.BASE_API_URL,
 })
 
 test('Create DELETE API Request using Playwright', { tag: '@PlaywrightWithJenkins' }, async ({ request }) => {
