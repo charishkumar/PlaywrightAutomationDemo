@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { getAPIPostRequestBody } from '../../src/utils/APIHelpers';
+import dotenv from 'dotenv';
 import { faker } from '@faker-js/faker';
 import tokenAPIRequest from '../../test-data/api_requests/Token_API_Request.json'; // we need to import the static JSON file which is storing the data for the token API request. We are using this data to send a post request to the endpoint /auth to get the token for the API request. We are using this token in the header of the PATCH API request to authenticate the request.
 import patchAPIRequest from '../../test-data/api_requests/PATCH_API_Request.json'; // we need to import PATCH API Request.json file

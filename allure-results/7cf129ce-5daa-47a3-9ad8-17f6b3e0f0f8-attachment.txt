@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 1519,
+  "booking": {
+    "firstname": "Sharon",
+    "lastname": "Champlin",
+    "totalprice": 4802,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-07-10",
+      "checkout": "2027-01-10"
+    },
+    "additionalneeds": "tabgo"
+  }
+}
+Booking ID: 1519
+GET API Response Body : {
+  "firstname": "Sharon",
+  "lastname": "Champlin",
+  "totalprice": 4802,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-07-10",
+    "checkout": "2027-01-10"
+  },
+  "additionalneeds": "tabgo"
+}
+Token: 11037a03c0e2301
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Champlin",
+  "totalprice": 4802,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-07-10",
+    "checkout": "2027-01-10"
+  },
+  "additionalneeds": "tabgo"
+}
+DELTE API Response Body : {}
