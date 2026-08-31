@@ -109,10 +109,10 @@ globalTimeout: 60 * 60* 1000,
       use: { ...devices['Desktop Chrome'], 
         browserName:'chromium',
         viewport:  { width: 2048, height: 1120 },
-        headless: false,
-        launchOptions:{
-          args:['--start-maximized'],
-        },
+        headless: true,
+        // launchOptions:{
+        //   args:['--start-maximized'],
+        // },
         //fullyParallel: true,
       },
       

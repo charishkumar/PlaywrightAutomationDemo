@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 4634,
+  "booking": {
+    "firstname": "Emilie",
+    "lastname": "Cruickshank",
+    "totalprice": 3982,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2027-05-21",
+      "checkout": "2027-07-16"
+    },
+    "additionalneeds": "harum"
+  }
+}
+Booking ID: 4634
+GET API Response Body : {
+  "firstname": "Emilie",
+  "lastname": "Cruickshank",
+  "totalprice": 3982,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-05-21",
+    "checkout": "2027-07-16"
+  },
+  "additionalneeds": "harum"
+}
+Token: 464a7c7c2876131
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Cruickshank",
+  "totalprice": 3982,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2027-05-21",
+    "checkout": "2027-07-16"
+  },
+  "additionalneeds": "harum"
+}
+DELTE API Response Body : {}
