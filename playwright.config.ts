@@ -67,16 +67,19 @@ globalTimeout: 60 * 60* 1000,
   //  reporter: [['html', {open:'always'}],
   //            ['dot']],
 
-  //  reporter: [['html', {open:'always'}],
-  //            ['junit', {outputFile:'junit-reports.xml'}]],
+  // reporter: [['html', {open:'always'}],
+  //           ['junit', {outputFile:'junit-reports.xml'}],
 
   //  reporter: [['html', {open:'on-failure'}],
   //            ['json', {outputFile:'json-test-report.json'}]], //if you want to generate json report along with html report. / specify folder name if you want to place the report in a specific folder.
 
 // reporter:'list',
 
- reporter: [['html', {open:'always'}],
-           ['allure-playwright']] ,
+  reporter: [
+    ['html', { open: 'always' }],
+    ['junit', { outputFile: 'junit-reports.xml' }],
+    ['allure-playwright'],
+  ],
 
 //reporter: './my-custom-reporter.ts',
 

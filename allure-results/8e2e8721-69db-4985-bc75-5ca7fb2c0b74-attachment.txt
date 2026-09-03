@@ -1,8 +1,4 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.105553">
-<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-02T09:01:53.581Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.217" errors="0">
-<testcase name="Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.217">
-<system-out>
-<![CDATA[POST API Response Body : {
+POST API Response Body : {
   "bookingid": 187,
   "booking": {
     "firstname": "Doreen",
@@ -41,8 +37,3 @@ PATCH API Response Body : {
   "additionalneeds": "placeat"
 }
 DELTE API Response Body : {}
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>

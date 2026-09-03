@@ -1,0 +1,41 @@
+API BASE URL: undefined
+Sending POST to: undefined/booking
+POST API Response Body : {
+  "bookingid": 400,
+  "booking": {
+    "firstname": "Destany",
+    "lastname": "Bins",
+    "totalprice": 4554,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-04-30",
+      "checkout": "2027-05-29"
+    },
+    "additionalneeds": "amplus"
+  }
+}
+Booking ID: 400
+GET API Response Body : {
+  "firstname": "Destany",
+  "lastname": "Bins",
+  "totalprice": 4554,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-04-30",
+    "checkout": "2027-05-29"
+  },
+  "additionalneeds": "amplus"
+}
+Token: 902d8f58ce86061
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Bins",
+  "totalprice": 4554,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-04-30",
+    "checkout": "2027-05-29"
+  },
+  "additionalneeds": "amplus"
+}
+DELTE API Response Body : {}

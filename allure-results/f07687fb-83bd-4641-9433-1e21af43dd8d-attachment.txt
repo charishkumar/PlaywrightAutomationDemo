@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 3239,
+  "booking": {
+    "firstname": "Emily",
+    "lastname": "Vandervort",
+    "totalprice": 2064,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-09-20",
+      "checkout": "2027-01-20"
+    },
+    "additionalneeds": "dignissimos"
+  }
+}
+Booking ID: 3239
+GET API Response Body : {
+  "firstname": "Emily",
+  "lastname": "Vandervort",
+  "totalprice": 2064,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-20",
+    "checkout": "2027-01-20"
+  },
+  "additionalneeds": "dignissimos"
+}
+Token: 89c69bbc90beec0
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Vandervort",
+  "totalprice": 2064,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-20",
+    "checkout": "2027-01-20"
+  },
+  "additionalneeds": "dignissimos"
+}
+DELTE API Response Body : {}

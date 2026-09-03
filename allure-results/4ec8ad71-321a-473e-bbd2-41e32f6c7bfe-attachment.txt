@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 5081,
+  "booking": {
+    "firstname": "Katherine",
+    "lastname": "Bailey",
+    "totalprice": 4936,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-12-19",
+      "checkout": "2026-12-07"
+    },
+    "additionalneeds": "avarus"
+  }
+}
+Booking ID: 5081
+GET API Response Body : {
+  "firstname": "Katherine",
+  "lastname": "Bailey",
+  "totalprice": 4936,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-12-19",
+    "checkout": "2026-12-07"
+  },
+  "additionalneeds": "avarus"
+}
+Token: 8eb596001e22a0c
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Bailey",
+  "totalprice": 4936,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-12-19",
+    "checkout": "2026-12-07"
+  },
+  "additionalneeds": "avarus"
+}
+DELTE API Response Body : {}

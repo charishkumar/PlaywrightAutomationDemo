@@ -1,0 +1,41 @@
+API BASE URL: undefined
+Sending POST to: undefined/booking
+POST API Response Body : {
+  "bookingid": 182,
+  "booking": {
+    "firstname": "Clifford",
+    "lastname": "Mills",
+    "totalprice": 3052,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-03-22",
+      "checkout": "2027-08-10"
+    },
+    "additionalneeds": "animadverto"
+  }
+}
+Booking ID: 182
+GET API Response Body : {
+  "firstname": "Clifford",
+  "lastname": "Mills",
+  "totalprice": 3052,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-03-22",
+    "checkout": "2027-08-10"
+  },
+  "additionalneeds": "animadverto"
+}
+Token: 5c15e605ed2421a
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Mills",
+  "totalprice": 3052,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-03-22",
+    "checkout": "2027-08-10"
+  },
+  "additionalneeds": "animadverto"
+}
+DELTE API Response Body : {}

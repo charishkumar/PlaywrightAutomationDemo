@@ -1,0 +1,41 @@
+API BASE URL: "https://restful-booker.herokuapp.com"
+Sending POST to: https://restful-booker.herokuapp.com/booking
+POST API Response Body : {
+  "bookingid": 649,
+  "booking": {
+    "firstname": "Humberto",
+    "lastname": "Swaniawski",
+    "totalprice": 2886,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-01-07",
+      "checkout": "2027-02-24"
+    },
+    "additionalneeds": "supra"
+  }
+}
+Booking ID: 649
+GET API Response Body : {
+  "firstname": "Humberto",
+  "lastname": "Swaniawski",
+  "totalprice": 2886,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-01-07",
+    "checkout": "2027-02-24"
+  },
+  "additionalneeds": "supra"
+}
+Token: 43a2bc7c06b8bae
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Swaniawski",
+  "totalprice": 2886,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-01-07",
+    "checkout": "2027-02-24"
+  },
+  "additionalneeds": "supra"
+}
+DELTE API Response Body : {}
