@@ -1,92 +1,9 @@
-<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="7.537635">
-<testsuite name="Chapter01/04_Codegen_Test.spec.ts" timestamp="2026-09-21T08:47:14.694Z" hostname="chromium" tests="2" failures="1" skipped="0" time="11.24" errors="0">
-<testcase name="[3], Codegen Test Case" classname="Chapter01/04_Codegen_Test.spec.ts" time="6.595">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="7.1930439999999995">
+<testsuite name="Chapter03/01_Annotations_Test.spec.ts" timestamp="2026-09-21T09:10:56.862Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.369" errors="0">
+<testcase name="Annotations in Playwright2" classname="Chapter03/01_Annotations_Test.spec.ts" time="6.369">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--3-Codegen-Test-Case-chromium/test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="[8], Codegen Test Case1" classname="Chapter01/04_Codegen_Test.spec.ts" time="4.645">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/test-failed-1.png]]
-
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/video.webm]]
-
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/error-context.md]]
-]]>
-</system-out>
-<failure message="expect(received).toBe(expected) // Object.is equality" type="expect.toBe">
-<![CDATA[  [chromium] › Chapter01/04_Codegen_Test.spec.ts:12:5 › [8], Codegen Test Case1 @PlaywrightWithJenkins @PlaywrightWithAzureDevOpsPipeline @PlaywrightWithGitHubActions 
-
-    Error: expect(received).toBe(expected) // Object.is equality
-
-    Expected: false
-    Received: true
-
-      12 | test('[8], Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline', '@PlaywrightWithGitHubActions'] }, async ({ page }) => {
-      13 |   await page.goto('https://www.youtube.com/');
-    > 14 |   expect(true).toBe(false);
-         |                ^
-      15 | });
-        at /Users/harishc/PWDemos/tests/Chapter01/04_Codegen_Test.spec.ts:14:16
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/error-context.md
-]]>
-</failure>
-</testcase>
-</testsuite>
-<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-21T08:47:14.694Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.423" errors="0">
-<testcase name="[10], Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.423">
-<system-out>
-<![CDATA[POST API Response Body : {
-  "bookingid": 3517,
-  "booking": {
-    "firstname": "Lindsey",
-    "lastname": "Brekke",
-    "totalprice": 4776,
-    "depositpaid": false,
-    "bookingdates": {
-      "checkin": "2027-03-08",
-      "checkout": "2027-08-20"
-    },
-    "additionalneeds": "tristis"
-  }
-}
-Booking ID: 3517
-GET API Response Body : {
-  "firstname": "Lindsey",
-  "lastname": "Brekke",
-  "totalprice": 4776,
-  "depositpaid": false,
-  "bookingdates": {
-    "checkin": "2027-03-08",
-    "checkout": "2027-08-20"
-  },
-  "additionalneeds": "tristis"
-}
-Token: cf8b554eac2f7ef
-PATCH API Response Body : {
-  "firstname": "Testers Talk",
-  "lastname": "Brekke",
-  "totalprice": 4776,
-  "depositpaid": false,
-  "bookingdates": {
-    "checkin": "2027-03-08",
-    "checkout": "2027-08-20"
-  },
-  "additionalneeds": "tristis"
-}
-DELTE API Response Body : {}
+[[ATTACHMENT|test-results/Chapter03-01_Annotations_Test-Annotations-in-Playwright2-chromium/test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

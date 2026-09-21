@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 5106,
+  "booking": {
+    "firstname": "Antonia",
+    "lastname": "Grant",
+    "totalprice": 4779,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-11-11",
+      "checkout": "2027-05-02"
+    },
+    "additionalneeds": "illum"
+  }
+}
+Booking ID: 5106
+GET API Response Body : {
+  "firstname": "Antonia",
+  "lastname": "Grant",
+  "totalprice": 4779,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-11-11",
+    "checkout": "2027-05-02"
+  },
+  "additionalneeds": "illum"
+}
+Token: 2d17d2f4d1c22fb
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Grant",
+  "totalprice": 4779,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-11-11",
+    "checkout": "2027-05-02"
+  },
+  "additionalneeds": "illum"
+}
+DELTE API Response Body : {}
