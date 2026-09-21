@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
   test('AssertLoginFailureErrorMessage', async ({ page }) => {
+    console.log('Execution started.');
     await test.step('Navigating to the Application', async () => {
       await page.goto('https://github.com/');
     });

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Codegen Test Case', { tag: '@PlaywrightWithJenkins' }, async ({ page }) => {
+test('[3], Codegen Test Case', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline'] }, async ({ page }) => {
   await page.goto('https://www.youtube.com/');
   await page.getByRole('combobox', { name: 'Search' }).click();
   await page.getByRole('combobox', { name: 'Search' }).fill('playwright by testers talk');
@@ -9,7 +9,7 @@ test('Codegen Test Case', { tag: '@PlaywrightWithJenkins' }, async ({ page }) =>
   await expect(page.getByRole('link', { name: 'Playwright by Testers Talk ✅' })).toBeVisible();
 });
 
-test('Codegen Test Case1', { tag: '@PlaywrightWithJenkins' }, async ({ page }) => {
+test('[8], Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline'] }, async ({ page }) => {
   await page.goto('https://www.youtube.com/');
   expect(true).toBe(false);
 });

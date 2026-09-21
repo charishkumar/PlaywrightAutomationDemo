@@ -1,44 +1,90 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.105553">
-<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-02T09:01:53.581Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.217" errors="0">
-<testcase name="Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.217">
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="11.148749">
+<testsuite name="Chapter01/04_Codegen_Test.spec.ts" timestamp="2026-09-18T05:58:53.920Z" hostname="chromium" tests="2" failures="1" skipped="0" time="11.142" errors="0">
+<testcase name="Codegen Test Case" classname="Chapter01/04_Codegen_Test.spec.ts" time="6.203">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case-chromium/test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Codegen Test Case1" classname="Chapter01/04_Codegen_Test.spec.ts" time="4.939">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/video.webm]]
+
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/error-context.md]]
+]]>
+</system-out>
+<failure message="expect(received).toBe(expected) // Object.is equality" type="expect.toBe">
+<![CDATA[  [chromium] › Chapter01/04_Codegen_Test.spec.ts:12:5 › Codegen Test Case1 @PlaywrightWithJenkins @PlaywrightWithAzureDevOpsPipeline 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      12 | test('Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline'] }, async ({ page }) => {
+      13 |   await page.goto('https://www.youtube.com/');
+    > 14 |   expect(true).toBe(false);
+         |                ^
+      15 | });
+        at /Users/harishc/PWDemos/tests/Chapter01/04_Codegen_Test.spec.ts:14:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-18T05:58:53.920Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.886" errors="0">
+<testcase name="Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.886">
 <system-out>
 <![CDATA[POST API Response Body : {
-  "bookingid": 187,
+  "bookingid": 4351,
   "booking": {
-    "firstname": "Doreen",
-    "lastname": "O'Keefe",
-    "totalprice": 3886,
-    "depositpaid": false,
+    "firstname": "Kole",
+    "lastname": "Bode",
+    "totalprice": 3260,
+    "depositpaid": true,
     "bookingdates": {
-      "checkin": "2026-10-19",
-      "checkout": "2027-04-05"
+      "checkin": "2027-02-06",
+      "checkout": "2027-03-06"
     },
-    "additionalneeds": "placeat"
+    "additionalneeds": "centum"
   }
 }
-Booking ID: 187
+Booking ID: 4351
 GET API Response Body : {
-  "firstname": "Doreen",
-  "lastname": "O'Keefe",
-  "totalprice": 3886,
-  "depositpaid": false,
+  "firstname": "Kole",
+  "lastname": "Bode",
+  "totalprice": 3260,
+  "depositpaid": true,
   "bookingdates": {
-    "checkin": "2026-10-19",
-    "checkout": "2027-04-05"
+    "checkin": "2027-02-06",
+    "checkout": "2027-03-06"
   },
-  "additionalneeds": "placeat"
+  "additionalneeds": "centum"
 }
-Token: 1be69a61220cece
+Token: f9388e8d108e285
 PATCH API Response Body : {
   "firstname": "Testers Talk",
-  "lastname": "O'Keefe",
-  "totalprice": 3886,
-  "depositpaid": false,
+  "lastname": "Bode",
+  "totalprice": 3260,
+  "depositpaid": true,
   "bookingdates": {
-    "checkin": "2026-10-19",
-    "checkout": "2027-04-05"
+    "checkin": "2027-02-06",
+    "checkout": "2027-03-06"
   },
-  "additionalneeds": "placeat"
+  "additionalneeds": "centum"
 }
 DELTE API Response Body : {}
 ]]>
