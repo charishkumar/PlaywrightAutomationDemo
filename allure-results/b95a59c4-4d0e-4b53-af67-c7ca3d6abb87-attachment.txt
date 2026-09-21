@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 2572,
+  "booking": {
+    "firstname": "Jenny",
+    "lastname": "Gerlach",
+    "totalprice": 4407,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-02-23",
+      "checkout": "2026-09-28"
+    },
+    "additionalneeds": "blandior"
+  }
+}
+Booking ID: 2572
+GET API Response Body : {
+  "firstname": "Jenny",
+  "lastname": "Gerlach",
+  "totalprice": 4407,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-02-23",
+    "checkout": "2026-09-28"
+  },
+  "additionalneeds": "blandior"
+}
+Token: 1d8d9ebe1903c17
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Gerlach",
+  "totalprice": 4407,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-02-23",
+    "checkout": "2026-09-28"
+  },
+  "additionalneeds": "blandior"
+}
+DELTE API Response Body : {}

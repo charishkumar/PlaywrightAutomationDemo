@@ -1,31 +1,31 @@
-<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="11.148749">
-<testsuite name="Chapter01/04_Codegen_Test.spec.ts" timestamp="2026-09-18T05:58:53.920Z" hostname="chromium" tests="2" failures="1" skipped="0" time="11.142" errors="0">
-<testcase name="Codegen Test Case" classname="Chapter01/04_Codegen_Test.spec.ts" time="6.203">
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="7.537635">
+<testsuite name="Chapter01/04_Codegen_Test.spec.ts" timestamp="2026-09-21T08:47:14.694Z" hostname="chromium" tests="2" failures="1" skipped="0" time="11.24" errors="0">
+<testcase name="[3], Codegen Test Case" classname="Chapter01/04_Codegen_Test.spec.ts" time="6.595">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case-chromium/test-finished-1.png]]
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--3-Codegen-Test-Case-chromium/test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Codegen Test Case1" classname="Chapter01/04_Codegen_Test.spec.ts" time="4.939">
+<testcase name="[8], Codegen Test Case1" classname="Chapter01/04_Codegen_Test.spec.ts" time="4.645">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/test-failed-1.png]]
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/test-failed-1.png]]
 
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/video.webm]]
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/video.webm]]
 
-[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/error-context.md]]
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/error-context.md]]
 ]]>
 </system-out>
 <failure message="expect(received).toBe(expected) // Object.is equality" type="expect.toBe">
-<![CDATA[  [chromium] › Chapter01/04_Codegen_Test.spec.ts:12:5 › Codegen Test Case1 @PlaywrightWithJenkins @PlaywrightWithAzureDevOpsPipeline 
+<![CDATA[  [chromium] › Chapter01/04_Codegen_Test.spec.ts:12:5 › [8], Codegen Test Case1 @PlaywrightWithJenkins @PlaywrightWithAzureDevOpsPipeline @PlaywrightWithGitHubActions 
 
     Error: expect(received).toBe(expected) // Object.is equality
 
     Expected: false
     Received: true
 
-      12 | test('Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline'] }, async ({ page }) => {
+      12 | test('[8], Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline', '@PlaywrightWithGitHubActions'] }, async ({ page }) => {
       13 |   await page.goto('https://www.youtube.com/');
     > 14 |   expect(true).toBe(false);
          |                ^
@@ -33,58 +33,58 @@
         at /Users/harishc/PWDemos/tests/Chapter01/04_Codegen_Test.spec.ts:14:16
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/test-failed-1.png
+    ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/test-failed-1.png
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/video.webm
+    ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    Error Context: ../test-results/Chapter01-04_Codegen_Test-Codegen-Test-Case1-chromium/error-context.md
+    Error Context: ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/error-context.md
 ]]>
 </failure>
 </testcase>
 </testsuite>
-<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-18T05:58:53.920Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.886" errors="0">
-<testcase name="Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.886">
+<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-21T08:47:14.694Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.423" errors="0">
+<testcase name="[10], Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.423">
 <system-out>
 <![CDATA[POST API Response Body : {
-  "bookingid": 4351,
+  "bookingid": 3517,
   "booking": {
-    "firstname": "Kole",
-    "lastname": "Bode",
-    "totalprice": 3260,
-    "depositpaid": true,
+    "firstname": "Lindsey",
+    "lastname": "Brekke",
+    "totalprice": 4776,
+    "depositpaid": false,
     "bookingdates": {
-      "checkin": "2027-02-06",
-      "checkout": "2027-03-06"
+      "checkin": "2027-03-08",
+      "checkout": "2027-08-20"
     },
-    "additionalneeds": "centum"
+    "additionalneeds": "tristis"
   }
 }
-Booking ID: 4351
+Booking ID: 3517
 GET API Response Body : {
-  "firstname": "Kole",
-  "lastname": "Bode",
-  "totalprice": 3260,
-  "depositpaid": true,
+  "firstname": "Lindsey",
+  "lastname": "Brekke",
+  "totalprice": 4776,
+  "depositpaid": false,
   "bookingdates": {
-    "checkin": "2027-02-06",
-    "checkout": "2027-03-06"
+    "checkin": "2027-03-08",
+    "checkout": "2027-08-20"
   },
-  "additionalneeds": "centum"
+  "additionalneeds": "tristis"
 }
-Token: f9388e8d108e285
+Token: cf8b554eac2f7ef
 PATCH API Response Body : {
   "firstname": "Testers Talk",
-  "lastname": "Bode",
-  "totalprice": 3260,
-  "depositpaid": true,
+  "lastname": "Brekke",
+  "totalprice": 4776,
+  "depositpaid": false,
   "bookingdates": {
-    "checkin": "2027-02-06",
-    "checkout": "2027-03-06"
+    "checkin": "2027-03-08",
+    "checkout": "2027-08-20"
   },
-  "additionalneeds": "centum"
+  "additionalneeds": "tristis"
 }
 DELTE API Response Body : {}
 ]]>

@@ -1,0 +1,220 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Chapter01/04_Codegen_Test.spec.ts >> [8], Codegen Test Case1
+- Location: tests/Chapter01/04_Codegen_Test.spec.ts:12:5
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: false
+Received: true
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [pressed] [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic: Skip navigation
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [ref=e34]
+            - button "Search" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - img
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+          - tooltip "tooltip"
+      - generic [ref=e47]:
+        - button "Settings" [ref=e52] [cursor=pointer]:
+          - generic [ref=e55]:
+            - img
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic: Sign in
+  - navigation [ref=e62]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - link "Home" [ref=e73] [cursor=pointer]:
+            - /url: /
+            - link "Home" [ref=e74]:
+              - generic [ref=e77]:
+                - img
+              - generic [ref=e78]: Home
+          - link "Shorts" [ref=e80] [cursor=pointer]:
+            - link "Shorts" [ref=e81]:
+              - generic [ref=e84]:
+                - img
+              - generic [ref=e85]: Shorts
+          - link "Subscriptions" [ref=e87] [cursor=pointer]:
+            - /url: /feed/subscriptions
+            - link "Subscriptions" [ref=e88]:
+              - generic [ref=e91]:
+                - img
+              - generic [ref=e92]: Subscriptions
+          - link "You" [ref=e94] [cursor=pointer]:
+            - /url: /feed/you
+            - link "You" [ref=e95]:
+              - generic [ref=e98]:
+                - img
+              - generic [ref=e99]: You
+          - link "History" [ref=e101] [cursor=pointer]:
+            - /url: /feed/history
+            - link "History" [ref=e102]:
+              - generic [ref=e105]:
+                - img
+              - generic [ref=e106]: History
+        - generic [ref=e107]:
+          - generic [ref=e108]: Sign in to like videos, comment, and subscribe.
+          - link "Sign in" [ref=e111] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+            - generic: Sign in
+        - generic [ref=e115]:
+          - heading "Explore" [level=3] [ref=e116]:
+            - generic [ref=e117]: Explore
+          - generic [ref=e118]:
+            - link "Shopping" [ref=e120] [cursor=pointer]:
+              - /url: /channel/UCkYQyvc_i9hXEo4xic9Hh2g
+              - link "Shopping" [ref=e121]:
+                - generic [ref=e124]:
+                  - img
+                - generic [ref=e125]: Shopping
+            - link "Music" [ref=e127] [cursor=pointer]:
+              - /url: /channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+              - link "Music" [ref=e128]:
+                - generic [ref=e131]:
+                  - img
+                - generic [ref=e132]: Music
+            - link "Movies & TV" [ref=e134] [cursor=pointer]:
+              - /url: /feed/storefront?bp=ogUCKAU%3D
+              - link "Movies & TV" [ref=e135]:
+                - generic [ref=e138]:
+                  - img
+                - generic [ref=e139]: Movies & TV
+            - button "Show more" [ref=e141]:
+              - link "Show more" [ref=e142] [cursor=pointer]:
+                - link "Show more" [ref=e143]:
+                  - generic [ref=e146]:
+                    - img
+                  - generic [ref=e147]: Show more
+        - generic [ref=e148]:
+          - heading "More from YouTube" [level=3] [ref=e149]:
+            - generic [ref=e150]: More from YouTube
+          - generic [ref=e151]:
+            - link "Try Premium for $0" [ref=e153] [cursor=pointer]:
+              - /url: /premium
+              - link "Try Premium for $0" [ref=e154]:
+                - generic [ref=e157]:
+                  - img
+                - generic [ref=e158]: Try Premium for $0
+            - link "YouTube Music" [ref=e160] [cursor=pointer]:
+              - /url: https://music.youtube.com/
+              - link "YouTube Music" [ref=e161]:
+                - generic [ref=e164]:
+                  - img
+                - generic [ref=e165]: YouTube Music
+            - link "YouTube Kids" [ref=e167] [cursor=pointer]:
+              - /url: https://www.youtubekids.com/?source=youtube_web
+              - link "YouTube Kids" [ref=e168]:
+                - generic [ref=e171]:
+                  - img
+                - generic [ref=e172]: YouTube Kids
+        - link "Report history" [ref=e176] [cursor=pointer]:
+          - /url: /reporthistory
+          - link "Report history" [ref=e177]:
+            - generic [ref=e180]:
+              - img
+            - generic [ref=e181]: Report history
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - link "About" [ref=e184] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/
+          - link "Press" [ref=e185] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/press/
+          - link "Copyright" [ref=e186] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/copyright/
+          - link "Contact us" [ref=e187] [cursor=pointer]:
+            - /url: /t/contact_us/
+          - link "Creators" [ref=e188] [cursor=pointer]:
+            - /url: https://www.youtube.com/creators/
+          - link "Advertise" [ref=e189] [cursor=pointer]:
+            - /url: https://www.youtube.com/ads/
+          - link "Developers" [ref=e190] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube
+        - generic [ref=e191]:
+          - link "Terms" [ref=e192] [cursor=pointer]:
+            - /url: /t/terms
+          - link "Privacy" [ref=e193] [cursor=pointer]:
+            - /url: /t/privacy
+          - link "Policy & Safety" [ref=e194] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/policies/
+          - link "How YouTube works" [ref=e195] [cursor=pointer]:
+            - /url: https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen
+          - link "Test new features" [ref=e196] [cursor=pointer]:
+            - /url: /new
+        - generic [ref=e197]: © 2026 Google LLC
+  - generic [ref=e198]:
+    - main [ref=e199]:
+      - generic [ref=e209]:
+        - heading "Try searching to get started" [level=2] [ref=e210]
+        - generic [ref=e211]: Start watching videos to help us build a feed of videos you'll love.
+    - text: •
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | test('[3], Codegen Test Case', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline'] }, async ({ page }) => {
+  4  |   await page.goto('https://www.youtube.com/');
+  5  |   await page.getByRole('combobox', { name: 'Search' }).click();
+  6  |   await page.getByRole('combobox', { name: 'Search' }).fill('playwright by testers talk');
+  7  |   await page.getByRole('combobox', { name: 'Search' }).press('Enter');
+  8  |   await page.getByRole('link', { name: 'Playwright by Testers Talk ✅' }).click();
+  9  |   await expect(page.getByRole('link', { name: 'Playwright by Testers Talk ✅' })).toBeVisible();
+  10 | });
+  11 | 
+  12 | test('[8], Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline'] }, async ({ page }) => {
+  13 |   await page.goto('https://www.youtube.com/');
+> 14 |   expect(true).toBe(false);
+     |                ^ Error: expect(received).toBe(expected) // Object.is equality
+  15 | });
+```
