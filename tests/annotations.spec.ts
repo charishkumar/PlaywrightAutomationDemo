@@ -11,10 +11,10 @@ Different annotations in Playwright
 import {test, expect} from "@playwright/test"
 
 //By using this annotation, you would have many tests in the file, but test runner will execute only 
-test.only('test1', async({page})=>{
-    await page.goto("https://www.google.com");
-    await expect (page).toHaveTitle('Google');
-})
+// test.only('test1', async({page})=>{
+//     await page.goto("https://www.google.com");
+//     await expect (page).toHaveTitle('Google');
+// })
 
 //By using this annotation, you would have many tests in the file, but test runner will execute only 
 test.skip('test2', async({page})=>{
