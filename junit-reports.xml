@@ -1,9 +1,92 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="7.1930439999999995">
-<testsuite name="Chapter03/01_Annotations_Test.spec.ts" timestamp="2026-09-21T09:10:56.862Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.369" errors="0">
-<testcase name="Annotations in Playwright2" classname="Chapter03/01_Annotations_Test.spec.ts" time="6.369">
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="5.226326">
+<testsuite name="Chapter01/04_Codegen_Test.spec.ts" timestamp="2026-09-21T13:28:51.194Z" hostname="chromium" tests="2" failures="1" skipped="0" time="7.098" errors="0">
+<testcase name="[3], Codegen Test Case" classname="Chapter01/04_Codegen_Test.spec.ts" time="4.2">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results/Chapter03-01_Annotations_Test-Annotations-in-Playwright2-chromium/test-finished-1.png]]
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--3-Codegen-Test-Case-chromium/test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="[8], Codegen Test Case1" classname="Chapter01/04_Codegen_Test.spec.ts" time="2.898">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/video.webm]]
+
+[[ATTACHMENT|test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/error-context.md]]
+]]>
+</system-out>
+<failure message="expect(received).toBe(expected) // Object.is equality" type="expect.toBe">
+<![CDATA[  [chromium] › Chapter01/04_Codegen_Test.spec.ts:12:5 › [8], Codegen Test Case1 @PlaywrightWithJenkins @PlaywrightWithAzureDevOpsPipeline @PlaywrightWithGitHubActions 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      12 | test('[8], Codegen Test Case1', { tag: ['@PlaywrightWithJenkins' , '@PlaywrightWithAzureDevOpsPipeline', '@PlaywrightWithGitHubActions'] }, async ({ page }) => {
+      13 |   await page.goto('https://www.youtube.com/');
+    > 14 |   expect(true).toBe(false);
+         |                ^
+      15 | });
+        at /Users/harishc/PWDemos/tests/Chapter01/04_Codegen_Test.spec.ts:14:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/Chapter01-04_Codegen_Test--8-Codegen-Test-Case1-chromium/error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="Chapter06/09_DELETE_API_Request.spec.ts" timestamp="2026-09-21T13:28:51.194Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.166" errors="0">
+<testcase name="[10], Create DELETE API Request using Playwright" classname="Chapter06/09_DELETE_API_Request.spec.ts" time="2.166">
+<system-out>
+<![CDATA[POST API Response Body : {
+  "bookingid": 4223,
+  "booking": {
+    "firstname": "Terrill",
+    "lastname": "Goodwin",
+    "totalprice": 1059,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-05-10",
+      "checkout": "2027-05-07"
+    },
+    "additionalneeds": "spes"
+  }
+}
+Booking ID: 4223
+GET API Response Body : {
+  "firstname": "Terrill",
+  "lastname": "Goodwin",
+  "totalprice": 1059,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-10",
+    "checkout": "2027-05-07"
+  },
+  "additionalneeds": "spes"
+}
+Token: 4ec833085c791d9
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Goodwin",
+  "totalprice": 1059,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-10",
+    "checkout": "2027-05-07"
+  },
+  "additionalneeds": "spes"
+}
+DELTE API Response Body : {}
 ]]>
 </system-out>
 </testcase>
