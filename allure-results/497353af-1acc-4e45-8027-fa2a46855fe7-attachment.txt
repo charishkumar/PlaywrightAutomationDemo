@@ -1,0 +1,39 @@
+POST API Response Body : {
+  "bookingid": 4223,
+  "booking": {
+    "firstname": "Terrill",
+    "lastname": "Goodwin",
+    "totalprice": 1059,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-05-10",
+      "checkout": "2027-05-07"
+    },
+    "additionalneeds": "spes"
+  }
+}
+Booking ID: 4223
+GET API Response Body : {
+  "firstname": "Terrill",
+  "lastname": "Goodwin",
+  "totalprice": 1059,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-10",
+    "checkout": "2027-05-07"
+  },
+  "additionalneeds": "spes"
+}
+Token: 4ec833085c791d9
+PATCH API Response Body : {
+  "firstname": "Testers Talk",
+  "lastname": "Goodwin",
+  "totalprice": 1059,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-10",
+    "checkout": "2027-05-07"
+  },
+  "additionalneeds": "spes"
+}
+DELTE API Response Body : {}
